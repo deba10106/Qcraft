@@ -1,13 +1,16 @@
-# Qcraft: Quantum Circuit Design, Optimization, and Surface Code Mapping Platform
+# Qcraft: A Modular Platform for Quantum Circuit Optimization and Surface Code Mapping via Reinforcement Learning
 
-## What is Qcraft?
-Qcraft is an advanced, research-grade platform for quantum circuit design, optimization, and surface code mapping. It leverages reinforcement learning (RL), curriculum learning, and hardware-aware optimization to enable scalable, high-fidelity quantum circuit compilation and error correction. Qcraft is modular, extensible, and production-ready, supporting both classical and quantum error-corrected circuit workflows.
+## Abstract
+Qcraft is a research-grade, modular desktop application for quantum circuit design, optimization, and surface code mapping. It leverages reinforcement learning (RL) to address the challenges of scalable, hardware-aware quantum compilation and error correction. This work presents the architecture, configurable workflows, and the novel RL-based surface code mapping module, highlighting the scientific motivation, reward function design, and future research directions.
 
 ---
 
-## Key Features
-- **Reinforcement Learning for Quantum Circuit Optimization**: Device-aware, reward-driven optimization of quantum circuits, supporting gate fusion, commutation, SWAP insertion, and more.
-- **Surface Code Multi-Patch Mapping**: RL-based mapping of multiple logical surface code patches to hardware, with advanced reward shaping and curriculum learning.
+## 1. Introduction
+Quantum computing promises exponential speedups for certain problems, but practical realization is hindered by noise, limited connectivity, and hardware constraints. Surface codes are a leading error correction technique, but mapping logical qubits to physical hardware remains a complex, high-dimensional optimization problem. Qcraft addresses this by providing a unified, extensible platform for:
+- Quantum circuit design and editing
+- Hardware-aware circuit optimization
+- RL-driven surface code mapping
+- Artifact management and reproducibility
 - **Curriculum Learning**: Progressive training with increasing difficulty, dynamic reward weighting, and robust convergence.
 - **Hardware Awareness**: Supports IBM devices (IonQ in progress), native gate sets, and device-specific constraints.
 - **Modular and Configurable**: YAML/JSON-driven configuration for all workflows, environments, and training parameters.
@@ -54,25 +57,13 @@ pip install /path/to/qcraft-<version>.tar.gz
 qcraft
 ```
 
-### RL Training (Examples)
-- **Circuit Optimization RL Training:**
-  ```bash
-  python -m circuit_designer.workflow_bridge --config configs/optimizer_config.yaml
-  ```
-- **Surface Code Multi-Patch RL Training:**
-  ```bash
-  python -m scode.rl_agent.train_multi_patch --config configs/multi_patch_rl_agent.yaml
-  ```
+### Usage
 
-### Evaluation and Simulation
-- **Evaluation:**
-  ```bash
-  python -m evaluation.evaluation_framework --config configs/your_eval_config.yaml
-  ```
-- **Execution Simulation:**
-  ```bash
-  python -m execution_simulation.execution_simulator --config configs/your_exec_config.yaml
-  ```
+To launch the Qcraft desktop application, simply run:
+
+```bash
+qcraft
+```
 
 ---
 
