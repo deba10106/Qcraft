@@ -290,7 +290,7 @@ I’m looking for **testers**, **contributors**, and **curious minds** who want 
 
 🔗 [GitHub – Qcraft](https://github.com/deba10106/Qcraft)
 
-The codebase will be open-sourced soon. Until then, feel free to clone, test, raise issues, and reach out if you'd like to contribute!
+Feel free to clone, test, raise issues, and reach out if you'd like to contribute!
 
 Let’s build Qcraft together.
 
