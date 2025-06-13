@@ -58,12 +58,6 @@ Use the virtual environment
 source qcraft/bin/activate
 ```
 
-### Install from PyPI inside the virtual environment
-
-```bash
-pip install qcraft
-```
-
 ### Installation
 
 #### Option 1: Install from PyPI (Recommended)
