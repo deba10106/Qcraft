@@ -34,13 +34,31 @@ Quantum computing promises exponential speedups for certain problems, but practi
 
 ### Requirements
 
-- **Python:** 3.9–3.11 (3.11 recommended)
+- **Python:** 3.10–3.11 (3.11 recommended)
 
 - **CUDA:** 12.4 (required for RL training with surface code agents)
 
 - **Tested on:** Linux, NVIDIA RTX 3070, CUDA 12.4, IBM Q devices
 
-### Install from PyPI
+Create a directory named qcraft (say). 
+
+```bash
+mkdir qcraft
+```
+
+Create a virtual environment named qcraft inside the directory
+
+```bash
+python3.11 -m venv qcraft
+```
+
+Use the virtual environment
+
+```bash
+source qcraft/bin/activate
+```
+
+### Install from PyPI inside the virtual environment
 
 ```bash
 pip install qcraft
@@ -70,17 +88,19 @@ pip install /path/to/qcraft-<version>.tar.gz
 
 ---
 
-## Usage
+### Usage
 
-### Main GUI
+To launch the Qcraft desktop application, simply run if you are already in the virtual environment you created:
 
 ```bash
 qcraft
 ```
 
-### Usage
+If you are not in the virtual environment, run from inside the qcraft directory
 
-To launch the Qcraft desktop application, simply run:
+```bash
+source qcraft/bin/activate
+```
 
 ```bash
 qcraft
