@@ -6,6 +6,8 @@ Qcraft is a research-grade, modular desktop application for quantum circuit desi
 
 ---
 
+Join Developer Community: https://docs.google.com/forms/d/e/1FAIpQLScyQAMenZaJy58T4qcdYRDXbcqNG5HzNxLQeukdkYvhx1iXWQ/viewform?usp=sharing&ouid=105826528724887272549
+
 ## 1. Introduction
 
 Quantum computing promises exponential speedups for certain problems, but practical realization is hindered by noise, limited connectivity, and hardware constraints. Surface codes are a leading error correction technique, but mapping logical qubits to physical hardware remains a complex, high-dimensional optimization problem. Qcraft addresses this by providing a unified, extensible platform for:
