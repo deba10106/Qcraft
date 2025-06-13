@@ -88,6 +88,11 @@ qcraft
 
 ---
 
+
+Join Developer Community: https://docs.google.com/forms/d/e/1FAIpQLScyQAMenZaJy58T4qcdYRDXbcqNG5HzNxLQeukdkYvhx1iXWQ/viewform?usp=sharing&ouid=105826528724887272549
+
+
+
 # 🚀 Introducing Qcraft: A Reinforcement Learning-Powered Desktop App for Fault-Tolerant Quantum Circuit Design
 
 **What if you could build fault-tolerant quantum circuits that adapt to the quirks of real hardware — right from your desktop?**
@@ -297,6 +302,11 @@ Feel free to clone, test, raise issues, and reach out if you'd like to contribut
 Let’s build Qcraft together.
 
 ---
+
+
+Join Developer Community: https://docs.google.com/forms/d/e/1FAIpQLScyQAMenZaJy58T4qcdYRDXbcqNG5HzNxLQeukdkYvhx1iXWQ/viewform?usp=sharing&ouid=105826528724887272549
+
+
 
 **#QuantumComputing #ReinforcementLearning #SurfaceCode #OpenSource #QEC #QuantumErrorCorrection #CircuitOptimization #FaultTolerance #IBMQuantum #IonQ #Qcraft #ModularDesign**
 
